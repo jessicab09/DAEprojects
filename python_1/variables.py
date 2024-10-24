@@ -1,4 +1,4 @@
-username = 'jessicab09' , 'refea'
+username = 'jessicab09'
 favorite_color = 'green'
 age = 15
 moneyInWallet = 692.92

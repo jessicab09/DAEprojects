@@ -7,10 +7,8 @@ def nextQuestion():
     print("Loading...")
     time.sleep(2)
 
-def wait(): time.sleep(1.5)
+def wait(): time.sleep(1.5)   
 
-correctAnswer1 = ['red','orange']
-    
 answer = input("Would you like to start the survey? ")
 
 if answer == "yes":
@@ -23,13 +21,13 @@ else:
 wait()
 print("What is your favorite color?")
 answer = input("Your answer: ")
-if answer == correctAnswer1:
+if answer == "red" "orange" "yellow":
     wait()
     print(questionsOrResponses[0])
 else:
     wait()
     print(questionsOrResponses[1])
-
+    
 wait()
 nextQuestion()
 
