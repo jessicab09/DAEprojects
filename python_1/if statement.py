@@ -6,8 +6,3 @@ if number1 > number2:
 
 else:
     print('number 2 is greater than number 1')
-
-print('hello world')
-number_of_times = 2
-for index in range(10):
-    print(index)

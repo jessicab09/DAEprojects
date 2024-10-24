@@ -1,0 +1,43 @@
+questionsOrResponses = ['Thank you for your response','Please enter a valid answer']
+import time
+def quit(): time.sleep(100000)
+def nextQuestion():
+    print("Next question.")
+    time.sleep(1)
+    print("Loading...")
+    time.sleep(2)
+
+def wait(): time.sleep(1.5)
+
+correctAnswer1 = ['red','orange']
+    
+answer = input("Would you like to start the survey? ")
+
+if answer == "yes":
+    wait()
+    print("Hello and welcome to my survey")
+else:
+    print("quitting survey...")
+    quit()
+
+wait()
+print("What is your favorite color?")
+answer = input("Your answer: ")
+if answer == correctAnswer1:
+    wait()
+    print(questionsOrResponses[0])
+else:
+    wait()
+    print(questionsOrResponses[1])
+
+wait()
+nextQuestion()
+
+print("What is your favorite type of weather?")
+answer = input("Your answer: ")
+if answer == 'sunny':
+    wait()
+    print(questionsOrResponses[0])
+else:
+    wait()
+    print(questionsOrResponses[1])
